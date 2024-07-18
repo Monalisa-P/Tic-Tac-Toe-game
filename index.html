@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="greet">Nice to see you!</h1>
+    <div class="nav">
+        <h1>Registration</h1>
+    </div>
+    <div class="total">
+        <div class="container">
+            <div class="header">
+                <form action="">
+                    <div class="form">
+                        <div class="form-group">
+                            <label for="fname" class="box-align">First Name: </label>
+                            <input type="text" name="fname" id="fname" placeholder="  Enter your first name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname" class="box-align">Last Name:</label>
+                            <input type="text" name="lname" id="lname" placeholder="  Enter your Last name" required> 
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="box-align">Email id:</label>
+                            <input type="email" name="email" id="email" placeholder="  Enter your Email id" required>
+                        </div>
+                        <div>
+                            <label class="box-align" id="gender">Gender:</label><br>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male" class="gender">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female" class="gender">Female</label>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other" class="gender">Other</label>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="box-align">Password:</label>
+                            <input type="password" name="password" id="password" placeholder="  Enter your password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="con-password" class="box-align">Confirm password:</label>
+                            <input type="password" name="con-password" id="con-password" placeholder="  Confirm your password" required>
+                        </div>
+                        <a href="./game.html" id="submit-btn">Register</a>
+                        </div>
+                        </form>
+                    </div>
+            </div><br><br>
+            <div id="login">
+                <h3>If you're already register - </h3>
+                <a href="./login.html" id="login-btn">Login</a>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
